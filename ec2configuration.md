@@ -74,7 +74,27 @@ python
 import MySQLdb AS mysql
 ```
 
+Matplotlib requires some non-python packages to be installed solo, before the main enchilada
+```
+sudo yum install libpng-devel
+sudo yum install freetype-devel
+sudo pip install matplotlib
+```
 
+Don't forget to add your new ssh connection to the file in your local ~/.ssh/config file as a known host for ease of access
 
+```
+Host bar-analytics
+ HostName foo.amazonaws.com
+ IdentityFile ~/.ssh/id_rsa
+ User me
+```
+
+If you want scipy, first you need a fortran compiler
+
+```
+sudo apt-get install gfortran
+sudo pip install scipy
+```
 
 
