@@ -8,13 +8,15 @@
 
 ###Stats/analytics stuff:
 - [ ]  "emily relaunch" stats for before and after
-- [ ]   2015 buying guide
+- [ ]   ~~2015 buying guide~~   //data not available in time
 
 ###Reporting:
 - [ ]  new NOBS report for jordana for "core sizes" only
+- [ ]  NOBS histogram report for Jordana for casual viewing
 - [ ]  member email list pentaho report for Mara
 - [ ]  pentaho report for "mid range" styles for relaunches and fantastic finds
-- [X] ship report for jonathan
+- [X]  ship report for jonathan
+- [ ]  snowflakes in laundy report for carol/jonathan  
 
 ###Handoff:
 - [ ]  write tour of files and a README for the code repo
