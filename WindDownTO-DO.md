@@ -25,6 +25,7 @@ carol
 - [X]  write instructions for configuring a mac for python/pandas/mysql/mysqldb
 - [ ]  ~~move work from aws box to central analytics machine~~ 
   //TR says they can stay
+- [ ]  Add description of NOBS to BIMertics.tex file
 
 ###Process things:
 - [ ]  talk to george/amy about moving the product catalog app to something 
