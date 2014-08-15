@@ -13,14 +13,17 @@ carol
 - [X]  ~~2015 buying guide~~   //data not available in time
 - [X]  Fantastic finds list sizes 14 or 16, not 16 or 18
 - [X]  USPS perl script and update temp table
-- [ ]  Jonathan's projected laundry return function
+- [ ]  Jonathan's projected laundry return function --make avg of ct_95 last 
+days of shipping, report only as far out as ct_95 days, and go back for 30 
+days of historical forecasts
 
 
 ###Reporting:
 - [X]  new NOBS report for jordana for "core sizes" only
 - [ ]  NOBS histogram report for Jordana for casual viewing
 - [X]  member email list pentaho report for Mara
-- [ ]  pentaho report for "mid range" styles for relaunches and fantastic finds
+- [ ]  pentaho report for "mid range" styles for relaunches and 
+fantastic finds (include stars)
 - [X]  ship report for jonathan
 - [X]  snowflakes in laundry report for carol/jonathan  
 - [X]  Other laundry return report
