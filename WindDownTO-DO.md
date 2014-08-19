@@ -1,12 +1,12 @@
 ##Wind-down To-do list
 
 ###DB stuff:
-- [ ]  Talk to TR / Ganesh about getting NOBS formula into 
-FACT_Product_Marketplace //emailed
-- [ ]  Get body code tags from pentaho into DIM_Product (replace temp table) //emailed
+- [X]  Talk to TR / Ganesh about getting NOBS formula into 
+FACT_Product_Marketplace //emailed and had call
+- [X]  Get body code tags from pentaho into DIM_Product (replace temp table) 
+//emailed and had call
 - [ ]  get laundry time percentile calc into a shell script / cron job for 
 carol
-- [ ]  duplicate laundry time maker for garment time @ customer
 
 ###Stats/analytics stuff:
 - [ ]  "emily relaunch" stats for before and after
