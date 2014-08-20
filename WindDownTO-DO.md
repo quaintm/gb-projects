@@ -16,13 +16,14 @@ carol
 - [ ]  Jonathan's projected laundry return function --make avg of ct_95 last 
 days of shipping, report only as far out as ct_95 days, and go back for 30 
 days of historical forecasts
+- [ ]  Talk to Elise about MSA data
 
 
 ###Reporting:
 - [X]  new NOBS report for jordana for "core sizes" only
-- [ ]  NOBS histogram report for Jordana for casual viewing
+- [ ]  ~~NOBS histogram report for Jordana for casual viewing~~ not important enough
 - [X]  member email list pentaho report for Mara
-- [ ]  pentaho report for "mid range" styles for relaunches and 
+- [X]  pentaho report for "mid range" styles for relaunches and 
 fantastic finds (include stars)
 - [X]  ship report for jonathan
 - [X]  snowflakes in laundry report for carol/jonathan  
@@ -34,6 +35,7 @@ fantastic finds (include stars)
 - [X]  ~~move work from aws box to central analytics machine~~ 
   //TR says they can stay
 - [ ]  Add description of NOBS to BIMertics.tex file
+- [ ]  Give presentation on function of python / mysqldb / cron job
 
 ###Process things:
 - [X]  talk to george/amy about moving the product catalog app to something 
