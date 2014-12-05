@@ -34,7 +34,6 @@ Rename local branch
     git branch -m <oldname> <newname>
 
 
-
 Show merged branches
     git branch -a --merged
 
@@ -46,8 +45,6 @@ Local
     git branch -d branch_name
 Remote
     git push your_remote :branch_name
-
-
 
 
 Adding to $fish_user_paths=
