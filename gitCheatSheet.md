@@ -24,3 +24,36 @@ Git configurations
 
 Retrieve all remotes
     fit fetch --all
+
+Git force pull to overwrite local files
+    git fetch --all
+    git reset --hard origin/master
+    git pull origin master 
+
+Rename local branch
+    git branch -m <oldname> <newname>
+
+
+
+Show merged branches
+    git branch -a --merged
+
+Don't show deleted remotes:
+    git remote prune your_remote
+
+Delete already-merged branches
+Local
+    git branch -d branch_name
+Remote
+    git push your_remote :branch_name
+
+
+
+
+Adding to $fish_user_paths=
+    set fish_user_paths $fish_user_paths my_path
+
+Setting Sublime as default editor
+    ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  add to fish config:
+    setenv EDITOR 'subl -w'
