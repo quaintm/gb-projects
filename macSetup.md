@@ -1,16 +1,5 @@
 ## Setting up Mac for python, Java, fish, and misc niceness
 
-###Getting python to work
-
-System python setup:
-
-    brew install python 
-  	pip install ipython
-  	pip install matplotlib
-  	pip install pandas
-  	
-Install anaconda for virtual environment handling
-
 ###Programs that make life better
 install from sites:
 * Sublime Text 2
@@ -45,6 +34,14 @@ Getting fish to work with conda requires adding new conda activation scripts and
 add the following line to ~.config/fish/config.fish :
 
     source $HOME/.config/fish/conda.fish
+    
+###Getting python to work
+
+Download and install conda
+
+put conda into the fish path:
+
+    set fish_user_paths $fish_user_paths ~/anaconda/bin
 
 ###Making Sublime the default text editor
 Rename the package for Sublime Text 2 in Applications to Sublime
