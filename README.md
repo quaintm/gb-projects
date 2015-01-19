@@ -1,4 +1,4 @@
-gb-projects
+misc-projects
 ===========
 
-Collection of snippets for Gwynnie Bee
+Collection miscellaneous small snippets
