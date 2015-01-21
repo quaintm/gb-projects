@@ -46,11 +46,3 @@ Local
 Remote
     git push your_remote :branch_name
 
-
-Adding to $fish_user_paths=
-    set fish_user_paths $fish_user_paths my_path
-
-Setting Sublime as default editor
-    ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-  add to fish config:
-    setenv EDITOR 'subl -w'
