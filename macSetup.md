@@ -50,6 +50,10 @@ In ~.config/fish/ add the file config.fish
 Add the line to config.fish:
 
     setenv EDITOR Sublime
+    
+Simlink the subl command:
+
+    ln -s "/Applications/Sublime.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 ###Getting Doc Handling
 
