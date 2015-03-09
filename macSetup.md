@@ -5,7 +5,8 @@ install from sites:
 * Sublime Text 2
 * iTerm 2
 * PyCharm
-* Sequel Pro
+* Sequel Pro (mysql)
+* DBeaver (mysql, vertica)
 
 ###Getting Java to work
 Download Java from the oracle website
@@ -35,7 +36,7 @@ add the following line to ~.config/fish/config.fish :
 
     source $HOME/.config/fish/conda.fish
     
-###Getting python to work
+###Getting python to work (using the anaconda distro)
 
 Download and install conda
 
