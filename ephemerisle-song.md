@@ -30,11 +30,6 @@ it's that truth don't come easy, it's a slippery thing
       C                    Em
 I can lie to myself like a bird on the wing
 
-Em                   C
-easy like breathing, but harder to check
-Em                             G
-we weave our bad habits like a noose round our necks
-
 
 Verse 2:
 Em                     C
@@ -47,11 +42,6 @@ I refuse to sit idle while the world passes by
        C                             Em
 I will reach out and take it, I will open my mind
 
-Em                         C
-To remind myself of this, for you and for me
-Em                          G
-I'm making a list of the hardest good deeds
-
 
 Chorus:
 C                   G
@@ -62,7 +52,6 @@ lean on another; it doesn't mean that you're weak
 C             G
 let yourself fail and fall; you learn the most when you lose it all
 
-
 C   D     G  D
 and every day
 C              Em
@@ -70,19 +59,15 @@ give to others more than you take
 
 
 Verse 2:
-Em                               C
-when you push yourself had every day of your life
-Em                              C
-gather your knowledge, hoard successes and strife
 
-    G                       D
+    Em                       C
 experience saves you from simple mistakes
-        Em                         Am
+        Em                         C
 and it hardens your heart, a frozen hard lake
 
-      Em                       C
+      G                      D
 let someone else in, let them show you their ways
-      Em                       G
+      C                      Em
 break it all down, though you might be afraid
 
 
@@ -94,7 +79,6 @@ lean on another; it doesn't mean that you're weak
 
 C             G
 let yourself fail and fall; you learn the most when you lose it all
-
 
 C   D     G  D
 and every day
