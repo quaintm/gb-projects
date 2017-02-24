@@ -56,6 +56,16 @@ Simlink the subl command:
 
     ln -s "/Applications/Sublime.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
+Add to fish path:
+
+    set fish_user_paths $fish_user_paths /usr/local/bin
+
+Add to ~/.gitconfig:
+
+    [alias]
+        undo-commit = reset --soft HEAD^
+        poh = push origin HEAD
+
 ###Getting Doc Handling
 
 Dowload pandoc from source
