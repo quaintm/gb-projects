@@ -66,6 +66,11 @@ Add to ~/.gitconfig:
         undo-commit = reset --soft HEAD^
         poh = push origin HEAD
 
+To make github use your keychain, add to ~/.ssh/config:
+
+    Host *
+        UseKeychain yes
+
 ###Getting Doc Handling
 
 Dowload pandoc from source
