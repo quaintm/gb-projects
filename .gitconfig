@@ -1,0 +1,7 @@
+[alias]
+    undo-commit = reset --soft HEAD^
+    fap = fetch --all --prune  
+    poh = push origin HEAD
+[user]
+	name = mquaintance
+	email = mquaintance@gmail.com
