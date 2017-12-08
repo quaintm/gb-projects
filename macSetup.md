@@ -5,8 +5,6 @@ install from sites:
 * Sublime Text 2
 * iTerm 2
 * PyCharm
-* Sequel Pro (mysql)
-* DBeaver (mysql, vertica)
 
 ###Getting Java to work
 Download Java from the oracle website
@@ -44,13 +42,8 @@ put conda into the fish path:
 
     set fish_user_paths $fish_user_paths ~/anaconda/bin
 
-###Making Sublime the default text editor
-Rename the package for Sublime Text 2 in Applications to Sublime
+###Rename the package for Sublime Text 2 in Applications to Sublime
 In ~.config/fish/ add the file config.fish
-
-Add the line to config.fish:
-
-    setenv EDITOR Sublime
     
 Simlink the subl command:
 
@@ -59,7 +52,6 @@ Simlink the subl command:
 Add to fish path:
 
     set fish_user_paths $fish_user_paths /usr/local/bin
-    set fish_user_paths $fish_user_paths /opt/vertica/bin
 
 Add to ~/.gitconfig:
 
@@ -72,20 +64,5 @@ To make github use your keychain, add to ~/.ssh/config:
     Host *
         UseKeychain yes
 
-###Getting Doc Handling
-
-Dowload pandoc from source
-
-Download MacTex from source
-
 ###Misc Mac setup
 In system prefs > keyboard > input, select tab and spacebar to move for all controls
-
-
-
-
-
-
-
-
-
