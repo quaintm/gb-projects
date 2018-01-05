@@ -1,7 +1,9 @@
 # Setting up Mac for python, Java, fish, and misc niceness
 
 ### Tools that make life better
+
 install from sites:
+
 * Sublime Text
 * iTerm 2
 * PyCharm
@@ -54,6 +56,15 @@ Install Anaconda for python version management:
 put conda into the fish path:
 
     set fish_user_paths $fish_user_paths ~/anaconda2/bin
+
+to create a conda env:
+    
+    conda create --name pydev python=2.7.13 scipy
+
+
+to active a conda env:
+
+    conda activate pydev
 
 ### Simlinking Sublime's CLI function
     
