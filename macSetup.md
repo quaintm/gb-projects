@@ -56,12 +56,10 @@ put conda into the fish path:
     set fish_user_paths $fish_user_paths ~/anaconda2/bin
 
 ### Simlinking Sublime's CLI function
-
-Rename the package for Sublime Text 3 in Applications to Sublime
     
 Simlink the subl command:
 
-    ln -s "/Applications/Sublime.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+    ln -s "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 Add to fish path:
 
