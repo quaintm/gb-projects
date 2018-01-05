@@ -35,13 +35,13 @@ add fish path to /etc/shells file:
 
     /usr/local/bin/fish
 
-change shell to fish:
+to change shell to fish, run:
 
-    run chsh -s /usr/local/bin/fish
+    chsh -s /usr/local/bin/fish
     
-config file goes in ~/.config/fish
+mkdir ~/.config/fish and move config.fish file into that dir
 
-Getting fish to work with conda requires adding new conda activation scripts and then sourcing, so add the following line to ~.config/fish/config.fish file:
+Getting fish to work with conda requires adding new conda activation scripts and then sourcing, so add the following line to ~.config/fish/config.fish file (should be in there already):
 
     source $HOME/anaconda2/etc/fish/conf.d/conda.fish
     
@@ -53,15 +53,13 @@ Install Anaconda for python version management:
 
 put conda into the fish path:
 
-    set fish_user_paths $fish_user_paths ~/anaconda/bin
+    set fish_user_paths $fish_user_paths ~/anaconda2/bin
 
-### Rename the package for Sublime Text 2 in Applications to Sublime
-
-In ~.config/fish/ add the file config.fish
+### Simlinking Sublime's CLI function
     
 Simlink the subl command:
 
-    ln -s "/Applications/Sublime.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+    ln -s "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 Add to fish path:
 
