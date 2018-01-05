@@ -5,8 +5,6 @@ set -g __fish_git_prompt_showupstream "informative"
 set -g __fish_git_prompt_char_upstream_ahead "↑"
 set -g __fish_git_prompt_char_upstream_behind "↓"
 set -g __fish_git_prompt_char_upstream_prefix ""
-set -g __fish_git_prompt_char_stagedstate "●"
-set -g __fish_git_prompt_char_dirtystate "✚"
 set -g __fish_git_prompt_char_untrackedfiles "…"
 set -g __fish_git_prompt_char_conflictedstate "✖"
 set -g __fish_git_prompt_char_cleanstate "✔"
@@ -42,3 +40,5 @@ end
 source $HOME/anaconda2/etc/fish/conf.d/conda.fish
 
 set fish_greeting "Go get it, Monica"
+set fish_user_paths $fish_user_paths ~/anaconda2/bin
+set fish_user_paths $fish_user_paths /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/
