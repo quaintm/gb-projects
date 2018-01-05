@@ -43,7 +43,7 @@ config file goes in ~/.config/fish
 
 Getting fish to work with conda requires adding new conda activation scripts and then sourcing, so add the following line to ~.config/fish/config.fish file:
 
-    source $HOME/.config/fish/conda.fish
+    source $HOME/anaconda2/etc/fish/conf.d/conda.fish
     
 ### Getting python to work (using the anaconda distro)
 
