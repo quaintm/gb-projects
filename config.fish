@@ -39,12 +39,6 @@ echo -n '$ '
  
 end
 
+source $HOME/anaconda2/etc/fish/conf.d/conda.fish
+
 set fish_greeting "Go get it, Monica"
-
-function vert
-    vsql -h vertica-lq-lb.p.sec.rtrdc.net -U mq -w QuMo5347
-end
-
-function db5
-    mysql -A -hdb5.analytics.renttherunway.it -umq -pY7TK2QIckaNXlrDXB0rl++3l+bsvLtJt+vCbBVcKvlg=
-end
