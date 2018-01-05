@@ -9,10 +9,6 @@ install from sites:
 ### Install homebrew (installation will download xcode):
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    
-### Install Anaconda for python version management:
-
-    https://conda.io/docs/user-guide/install/download.html
 
 ### Getting Java to work
 Download Java from the oracle website
@@ -20,6 +16,7 @@ Download Java from the oracle website
 Download the java SE development kit:
 
    Java 7:  http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+   
    Java 8:  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ### Getting mysql and the python connector to work
@@ -34,21 +31,25 @@ get command line tools from here: https://developer.apple.com/downloads/index.ac
 
     brew install fish
     
-add fish path to /etc/shells
+add fish path to /etc/shells file:
+
+    /usr/local/bin/fish
+
+change shell to fish:
 
     run chsh -s /usr/local/bin/fish
     
 config file goes in ~/.config/fish
 
-Getting fish to work with conda requires adding new conda activation scripts and then sourcing
-
-add the following line to ~.config/fish/config.fish :
+Getting fish to work with conda requires adding new conda activation scripts and then sourcing, so add the following line to ~.config/fish/config.fish file:
 
     source $HOME/.config/fish/conda.fish
     
 ### Getting python to work (using the anaconda distro)
 
-Download and install conda
+Install Anaconda for python version management:
+
+    https://conda.io/docs/user-guide/install/download.html
 
 put conda into the fish path:
 
