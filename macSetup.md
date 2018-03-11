@@ -60,7 +60,7 @@ put conda into the fish path:
 to create a conda env:
     
     conda create --name pydev python=2.7.13 scipy
-
+    conda install --name pydev pip
 
 to active a conda env:
 
